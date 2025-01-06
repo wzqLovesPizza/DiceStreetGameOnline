@@ -53,7 +53,7 @@ clients = []
 clients_name = []
 player_list = []
 class Player:
-    def __init__(self, name, farm=0, bakery=1, forest=0, field=1, orchard=0, miningSite=0, fruitMall=0, grocery=0, cheeseFac=0, furnitureFac=0, TVStation=0, gym=0, commercialCenter=0, westernRes=0, cafe=0, broadcastTower=False, trainStation=False, shoppingMall=False, amusementPark=False, money=500):
+    def __init__(self, name, farm=0, bakery=1, forest=0, field=1, orchard=0, miningSite=0, fruitMall=0, grocery=0, cheeseFac=0, furnitureFac=0, TVStation=0, gym=0, commercialCenter=0, westernRes=0, cafe=0, broadcastTower=False, trainStation=False, shoppingMall=False, amusementPark=False, money=5):
         self.name = name
 
         self.farm = farm
